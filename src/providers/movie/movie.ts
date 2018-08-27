@@ -12,7 +12,7 @@ import { Http } from '@angular/http';
 export class MovieProvider {
 
   private baseApiPath = "https://api.themoviedb.org/3";
-  private key         = "<api_key aqui>";
+  private key         = "l0ur3n26553a535b1be2c81c0a036403fb4963";
   private api_key     = "?api_key=";
   private movie       = "/movie"
   private latest      = "/latest";
