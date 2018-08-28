@@ -14,7 +14,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { FeedPageModule } from '../pages/feed/feed.module';
 import { IntroPageModule } from '../pages/intro/intro.module';
 import { MovieProvider } from '../providers/movie/movie';
-import { MovieKeyProvider } from '../providers/movie-key/movie-key';
+import { ConfigProvider } from '../providers/config/config';
 
 @NgModule({
   declarations: [
@@ -44,7 +44,7 @@ import { MovieKeyProvider } from '../providers/movie-key/movie-key';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     MovieProvider,
-    MovieKeyProvider
+    ConfigProvider
   ]
 })
 export class AppModule {}
